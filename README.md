@@ -12,5 +12,5 @@ docker compose -f ./docker-compose.dev.yml up -d
 
 # Project structure
 
-`./pb_hooks` - Contains custom to automatically run code on specific events
-`./pb_migrations` - Contains database migrations, always contains the latest database structure that is currently running in production
+-   `./pb_hooks` - Contains custom to automatically run code on specific events
+-   `./pb_migrations` - Contains database migrations, always contains the latest database structure that is currently running in production
