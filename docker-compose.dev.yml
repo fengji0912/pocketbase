@@ -1,7 +1,8 @@
 version: '3.7'
 services:
     pocketbase:
-        image: ghcr.io/muchobien/pocketbase:latest
+        build:
+            dockerfile: Dockerfile
         container_name: pocketbase
         restart: unless-stopped
         command:
