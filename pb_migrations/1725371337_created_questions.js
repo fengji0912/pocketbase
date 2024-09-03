@@ -15,7 +15,7 @@ migrate((db) => {
           "type": "text",
           "required": true,
           "presentable": false,
-          "unique": false,
+          "unique": true,
           "options": {
             "min": null,
             "max": null,
